@@ -168,7 +168,7 @@ If you use this work in your research, please cite our paper:
 
 If you use the code implementation in your work, please also cite:
 
-**Rahi, A. (2025). CAMUS-HeartNet: A Deep Meta-Ensemble Architecture for Accurate Cardiac Tissue Segmentation [Computer software]. GitHub repository. Retrieved from https://github.com/AlirezaRahi/CAMUS-HeartNet-A-Deep-Meta-Ensemble-Architecture-for-Accurate-Cardiac-Tissue-Segmentation**
+**Rahi, A. (2025). CAMUS-HeartNet: A Deep Meta-Ensemble Architecture for Accurate Cardiac Tissue Segmentation [[Source code]. GitHub repository. Retrieved from https://github.com/AlirezaRahi/CAMUS-HeartNet-A-Deep-Meta-Ensemble-Architecture-for-Accurate-Cardiac-Tissue-Segmentation**
 
 ## 📄 License
 
