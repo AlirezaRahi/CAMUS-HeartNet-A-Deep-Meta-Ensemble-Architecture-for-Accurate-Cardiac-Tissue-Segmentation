@@ -1,0 +1,54 @@
+
+# License
+
+## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+### You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+- **NonCommercial** — You may not use the material for commercial purposes.
+
+- **NoDerivatives** — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+### Summary:
+
+This license allows others to download and share the work with others as long as they credit the author, but they can't change the work in any way or use it commercially.
+
+### Full License Text:
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+## Commercial Licensing
+
+For commercial use, derivative works, or modifications, please contact the author directly to discuss licensing options.
+
+### 📝 Citation
+If you use this work in your research, please cite our paper:
+
+**Rahi, A. (2025). CAMUS-HeartNet: A Deep Meta-Ensemble Architecture for Accurate Cardiac Tissue Segmentation. medRxiv. https://doi.org/10.1101/2025.10.17.25338213**
+
+If you use the code implementation in your work, please also cite:
+
+**Rahi, A. (2025). Towards Clinical-Grade Cardiac MRI Segmentation: An Ensemble of Improved UNet Architectures [Computer software]. GitHub repository, AlirezaRahi/Towards-Clinical-Grade-Cardiac-MRI-Segmentation-An-Ensemble-of-Improved-UNet-Architectures. Retrieved fromhttps://github.com/AlirezaRahi/CAMUS-HeartNet-A-Deep-Meta-Ensemble-Architecture-for-Accurate-Cardiac-Tissue-Segmentation**
+
+
+## Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Medical Use Disclaimer
+
+This software is intended for research purposes only. It is not certified for clinical use. Always consult with qualified healthcare professionals for medical diagnosis and treatment.
+
+---
+
+**Copyright (c) 2025 Alireza Rahi**  
+*All rights reserved.*
