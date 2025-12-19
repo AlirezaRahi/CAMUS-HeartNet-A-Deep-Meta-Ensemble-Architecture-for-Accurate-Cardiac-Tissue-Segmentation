@@ -1,23 +1,32 @@
 
-# Cardiac Segmentation with Deep U-Net Ensemble and Meta-Learning
+# CAMUS-HeartNet: Deep U-Net Ensemble with Meta-Learning for Cardiac MRI Segmentation
 
-A deep learning system for cardiac MRI segmentation using ensemble U-Net architectures with meta-learning for superior performance in medical image analysis.
+A research-oriented deep learning framework for multi-class cardiac MRI segmentation on the CAMUS dataset using U-Net ensembles and meta-learning-based fusion.
 
-### 📄 Publication
-**Title:** CAMUS-HeartNet: A Deep Meta-Ensemble Architecture for Accurate Cardiac Tissue Segmentation
-**Journal:** medRxiv
-**DOI:** https://doi.org/10.1101/2025.10.17.25338213
-**Publication Date:** October 19, 2025.
+##  Publication
+
+**Title:** CAMUS-HeartNet: A Deep Meta-Ensemble Architecture for Accurate Cardiac Tissue Segmentation  
+**Preprint Server:** medRxiv  
+**DOI:** https://doi.org/10.1101/2025.10.17.25338213  
+**Publication Date:** October 19, 2025  
 **URL:** https://www.medrxiv.org/content/10.1101/2025.10.17.25338213v1
 
+
 ##  Project Overview
+### Intended Audience
+
+This repository is intended for:
+- Medical imaging researchers working with cardiac MRI
+- Deep learning practitioners in biomedical segmentation
+- Researchers using the CAMUS dataset
+- Graduate students and PhD candidates in medical image analysis
 
 This project implements an advanced cardiac segmentation system that combines multiple Deep U-Net models with meta-learning techniques to achieve state-of-the-art performance in segmenting cardiac structures from MRI images. The system accurately segments four cardiac regions: Background, Left Ventricle (LV), Myocardium, and Right Ventricle (RV).
 
 ##  Key Features
 
 - **Deep U-Net Ensemble**: Multiple U-Net models with enhanced depth and architecture
-- **Meta-Learning Integration**: Intelligent prediction fusion using ensemble methods
+- **Meta-Learning Integration**: Learnable ensemble fusion strategy for combining multiple U-Net predictions
 - **Advanced Data Pipeline**: Comprehensive preprocessing and augmentation
 - **Medical-Grade Evaluation**: Clinical metrics including Dice scores and ROC analysis
 - **High Performance**: Achieves >96% accuracy and >92% mean Dice score
