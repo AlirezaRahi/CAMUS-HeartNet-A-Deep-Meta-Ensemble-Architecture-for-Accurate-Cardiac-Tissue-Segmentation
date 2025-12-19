@@ -32,7 +32,8 @@ This project implements an advanced cardiac segmentation system that combines mu
 - **High Performance**: Achieves >96% accuracy and >92% mean Dice score
 
 ##  Performance Results
-
+![Performance Summary](Figure_1.png)
+![Performance Summary](figure2.png)
 ### Quantitative Evaluation (50 Test Samples)
 - **Overall Accuracy**: 96.80%
 - **Global Mean Dice**: 92.98%
@@ -54,8 +55,7 @@ This project implements an advanced cardiac segmentation system that combines mu
 - CUDA-compatible GPU (recommended)
 
 ### Required Packages
-
-
+```bash
 pip install tensorflow==2.10.0
 pip install opencv-python
 pip install scikit-learn
@@ -65,6 +65,7 @@ pip install seaborn
 pip install pandas
 pip install numpy
 pip install joblib
+```
 
 
 ### Data Setup
@@ -75,32 +76,40 @@ pip install joblib
 ## 🚀 Usage
 
 ### Training New Models
-
+```python
 from cardiac_segmentation import main_training
+
+main_training()
+```
 
 # Train new ensemble models
 main_training()
 
 
 ### Evaluating Pre-trained Models
-
+```python
 from cardiac_segmentation import main_evaluation
+
+main_evaluation()
+```
 
 # Evaluate existing models
 main_evaluation()
 
 
 ### Custom Usage
-
+```python
 from cardiac_segmentation import DeepCardiacEnsembleMeta, CardiacModelEvaluator
 
-# Initialize ensemble
-ensemble = DeepCardiacEnsembleMeta(input_shape=(192, 192, 1), num_classes=4)
+ensemble = DeepCardiacEnsembleMeta(
+    input_shape=(192, 192, 1),
+    num_classes=4
+)
 ensemble.build_models()
 
-# Train and evaluate
 ensemble.train_models(train_dataset, val_dataset)
 results = ensemble.evaluate_ensemble(test_dataset)
+```
 
 
 ##  Architecture
@@ -122,7 +131,7 @@ results = ensemble.evaluate_ensemble(test_dataset)
    - Anatomical structure-preserving augmentation
    - Batch processing with TensorFlow Dataset API
 
-4. **Evaluation Framework**
+4.**Evaluation Framework**
    - Dice coefficient calculation
    - ROC curve analysis
    - Confusion matrices
@@ -161,6 +170,8 @@ The system generates comprehensive visualizations:
 - Myocardial mass calculation
 - Treatment planning and monitoring
 - Cardiovascular disease research
+> ⚠️ **Research Use Only**  
+> This software is intended for research purposes and must not be used for clinical decision-making without proper regulatory approval and expert validation.
 
 ##  Contributing
 
