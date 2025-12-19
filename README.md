@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Medical Imaging](https://img.shields.io/badge/domain-cardiac--MRI-red)
+![Status](https://img.shields.io/badge/status-research-green)
 
 # CAMUS-HeartNet: Deep U-Net Ensemble with Meta-Learning for Cardiac MRI Segmentation
 
